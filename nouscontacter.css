@@ -1,0 +1,175 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  scroll-behavior: smooth;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+body {
+    background-color: #212121;
+}
+
+  header {
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 415px;
+    margin-left: 400px;
+    height: 120px;
+    width: auto;
+    background-color: #333;
+    border-radius: 20px;
+    opacity: 0;
+transform: translateY(-30px);
+animation: apparition 0.6s  0.4s ease-out forwards;
+}
+
+button {
+    margin-left: 25px;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+    transition-property: box-shadow;
+  }
+  
+  button {
+    background: rgb(35, 197, 102);
+    box-shadow: 0 0 25px rgb(35, 197, 102);
+  }
+  
+  button:hover {
+    box-shadow: 0 0 5px rgb(35, 197, 102),
+                0 0 25px rgb(35, 197, 102),
+                0 0 50px rgb(35, 197, 102),
+                0 0 100px rgb(35, 197, 102);
+  }
+
+
+h1 {
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: apparition 0.6s  0.9s ease-out forwards;
+}
+
+
+
+
+
+
+
+button1 {
+  cursor: default;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 70px;
+  margin-left: 800px;
+  margin-right: 800px;
+  font-family: inherit;
+  font-size: 18px;
+  background: linear-gradient(to bottom, #4f4dd9 0%,#2b60aa 100%);
+  color: white;
+  padding: 0.8em 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: apparition 0.6s  1.2s ease-out forwards;
+}
+
+button1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+button1:active {
+  transform: scale(0.95);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button1 span {
+  display: block;
+  margin-left: 0.4em;
+  transition: all 0.3s;
+}
+
+button1 svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+  transition: all 0.3s;
+}
+
+button1 .svg-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-right: 0.5em;
+  transition: all 0.3s;
+}
+
+button1:hover .svg-wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+button1:hover svg {
+  transform: rotate(360deg);
+}
+
+/* credits to uiverse.io/profile/eirikvold */
+
+
+.barre {
+  margin-top: 80px;
+  margin-left: 750px;
+  border-radius: 100px;
+  height: 3px;
+  width: 400px;
+  color: #fff;
+  background-color: #333;
+  opacity: 0;
+transform: translateY(-20px);
+animation: apparition 0.6s  1.3s ease-out forwards;
+}
+
+
+.card {
+  margin-top: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #4da152;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: apparition 0.6s  1.6s ease-out forwards;
+}
+
+
+
+
+
+@keyframes apparition {
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
